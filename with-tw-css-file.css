@@ -1,0 +1,10 @@
+.button-primary {
+    background: darkgreen;
+    color: coral;
+    padding: 12px 24px;
+    border-radius: 8px;
+
+    border: tomato;
+    cursor: pointer;
+    font-size: 16px;
+}
