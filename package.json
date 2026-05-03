@@ -1,23 +1,11 @@
 {
   "name": "tailwind-css-guide",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sock-puppet-dev/Tailwind-CSS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/sock-puppet-dev/Tailwind-CSS/issues"
-  },
-  "homepage": "https://github.com/sock-puppet-dev/Tailwind-CSS#readme",
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.4",
     "tailwindcss": "^4.2.4"
