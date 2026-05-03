@@ -1,0 +1,13 @@
+# JetBrains IDE settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
