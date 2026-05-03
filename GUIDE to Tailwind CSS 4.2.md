@@ -12,3 +12,5 @@ dist  — здесь будет готовый CSS после сборки
 
 npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch
 
+
+
