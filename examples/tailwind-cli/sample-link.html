@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS 4.3: ссылки и карточки</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+
+  <body class="min-h-screen bg-slate-950 text-white">
+    <main class="mx-auto flex min-h-screen max-w-4xl items-center justify-center px-6 py-10">
+      <section class="rounded-2xl bg-slate-900 p-8 shadow-xl ring-1 ring-white/10">
+        <p class="text-sm font-semibold uppercase tracking-wide text-sky-400">
+          Второй пример
+        </p>
+        <h1 class="mt-3 text-4xl font-bold tracking-tight">
+          Tailwind CSS 4.3 работает
+        </h1>
+        <p class="mt-4 text-lg text-slate-300">
+          Здесь показаны ссылка, кнопки, состояния `hover` и базовая карточка.
+        </p>
+
+        <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+          <a
+            href="./index.html"
+            class="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 shadow-sm hover:bg-slate-200"
+          >
+            Назад к главному примеру
+          </a>
+          <button class="rounded-xl bg-sky-600 px-5 py-3 text-sm font-semibold text-white hover:bg-sky-700 active:scale-95">
+            Купить
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
