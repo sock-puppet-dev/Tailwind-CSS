@@ -48,7 +48,8 @@ TAILWIND-CSS-GUIDE/
 {
   "scripts": {
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "check": "npm run build && node ./scripts/check-project.mjs"
   }
 }
 ```
@@ -63,4 +64,10 @@ npm run dev
 
 ```bash
 npm run build
+```
+
+Проверка учебного проекта:
+
+```bash
+npm run check
 ```

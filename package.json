@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "check:project": "node ./scripts/check-project.mjs",
+    "check": "npm run build && npm run check:project",
+    "visual:check": "node ./scripts/visual-check.mjs"
   },
   "devDependencies": {
     "@tailwindcss/cli": "4.3.0",
